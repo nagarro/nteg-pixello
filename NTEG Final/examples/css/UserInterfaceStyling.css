@@ -1,0 +1,36 @@
+﻿#UsreInterfaceCanvas
+{
+    height: 480px;
+    width: 640px;
+    z-index: 10;
+    position: relative;
+    background: blue;
+    float: left;
+}
+
+#cursor
+{
+    z-index: 100;
+    position:absolute;   
+}
+
+canvas
+{
+    -moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    filter: FlipH;
+    transform: scale(-1, 1);
+}
+.cursor-image
+{
+    
+}
+
+.testDiv
+{    
+    background:blue;
+    
+    height:300px;
+    width:300px;
+}
